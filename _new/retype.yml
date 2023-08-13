@@ -1,0 +1,19 @@
+input: .
+output: .retype
+url: odam.community
+branding:
+  title: ODAM
+  label: Framework
+  logo: static/odam-logo-small-icon.webp
+links:
+- text: LinkedIn
+  link: https://www.linkedin.com/in/cperkins2/
+  target: blank
+footer:
+  copyright: "&copy; Copyright {{ year }}. All rights reserved."
+  links: 
+    - text: ODAM Overview
+      link: static/Splunk_ODAM_Overview.pdf
+      target: blank
+markdown:
+  lineBreaks: hard
