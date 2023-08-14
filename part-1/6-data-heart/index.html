@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.1.0.745297632690">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Data at the Heart of Modern Life </title>
+    <meta name="title" content="Data at the Heart of Modern Life ">
+    <meta name="description" content="In this section, we will explore the 5 Vs, the growth of IoT and sensing devices, the impact of mobile and cloud computing on data generations, and...">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://odam.community/part-1/6-data-heart/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://odam.community/part-1/6-data-heart/">
+    <meta property="og:title" content="Data at the Heart of Modern Life ">
+    <meta property="og:description" content="In this section, we will explore the 5 Vs, the growth of IoT and sensing devices, the impact of mobile and cloud computing on data generations, and...">
+    <meta property="og:image" content="https://odam.community/static/part-1/cloud-formations.webp">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://odam.community/part-1/6-data-heart/">
+    <meta property="twitter:title" content="Data at the Heart of Modern Life ">
+    <meta property="twitter:description" content="In this section, we will explore the 5 Vs, the growth of IoT and sensing devices, the impact of mobile and cloud computing on data generations, and...">
+    <meta property="twitter:image" content="https://odam.community/static/part-1/cloud-formations.webp">
+
+    <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+
+    <link href="../../resources/css/retype.css?v=3.1.0.745297632690" rel="stylesheet">
+
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.1.0.745297632690" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.1.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.1.0.745297632690" data-turbo-eval="false" defer></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Cloudflare Web Analytics -->
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js'
+        data-cf-beacon='{"token": "33b971195d5c44ebbda8e52ff0f51d4e"}'></script>
+    <!-- End Cloudflare Web Analytics -->
+</head>
+<body>
+    <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
+        <div class="absolute bottom-0 left-0 bg-gray-100 dark:bg-dark-800" style="top: 5rem; right: 50%"></div>
+    
+        <header id="docs-site-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
+            <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton docs-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="docs-sidebar-toggle"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="docs-site-logo" href="../../" class="flex items-center leading-snug text-2xl">
+                            <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../../static/odam-logo-small-icon.webp">
+                                <img class="max-h-10 hidden dark:inline-block" src="../../static/odam-logo-small-icon.webp">
+                            </span>
+                            <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">ODAM</span>
+                        </a><span class="hidden px-2 py-1 ml-4 text-sm font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-sm md:inline-block">Framework</span>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../static/splunk_odam_overview.pdf" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M0 3.75A.75.75 0 0 1 .75 3h7.497c1.566 0 2.945.8 3.751 2.014A4.495 4.495 0 0 1 15.75 3h7.5a.75.75 0 0 1 .75.75v15.063a.752.752 0 0 1-.755.75l-7.682-.052a3 3 0 0 0-2.142.878l-.89.891a.75.75 0 0 1-1.061 0l-.902-.901a2.996 2.996 0 0 0-2.121-.879H.75a.75.75 0 0 1-.75-.75Zm12.75 15.232a4.503 4.503 0 0 1 2.823-.971l6.927.047V4.5h-6.75a3 3 0 0 0-3 3ZM11.247 7.497a3 3 0 0 0-3-2.997H1.5V18h6.947c1.018 0 2.006.346 2.803.98Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>ODAM Overview</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../static/odam-maturity-scoring-matrix-levels-1-to-5.xlsx">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M3.5 3.75a.25.25 0 0 1 .25-.25h13.5a.25.25 0 0 1 .25.25v10a.75.75 0 0 0 1.5 0v-10A1.75 1.75 0 0 0 17.25 2H3.75A1.75 1.75 0 0 0 2 3.75v16.5c0 .966.784 1.75 1.75 1.75h7a.75.75 0 0 0 0-1.5h-7a.25.25 0 0 1-.25-.25V3.75Z"/><path d="M6.25 7a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5h-8.5Zm-.75 4.75a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1-.75-.75Zm16.28 4.53a.75.75 0 1 0-1.06-1.06l-4.97 4.97-1.97-1.97a.75.75 0 1 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0l5.5-5.5Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Data Analytics Maturity Self-Assessment</span>
+                                </a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+                            <input class="w-full h-10 placeholder-gray-400 transition-colors duration-200 ease-in bg-gray-200 border border-transparent rounded md:text-sm hover:bg-white hover:border-gray-300 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-dark-600 dark:border-dark-600 dark:placeholder-dark-400" style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search">
+                        </div>
+        
+                        <!-- Mobile search button -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placeholder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="docs-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <div class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-gray-100 border-gray-200 sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton dark:bg-dark-800 dark:border-dark-650">
+            
+                <!-- Render this div, if config.showSidebarFilter is `true` -->
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-white border border-gray-200 rounded shadow-none text-sm focus:outline-none focus:border-gray-600 dark:bg-dark-600 dark:border-dark-600" type="text" placeholder="Filter">
+                </div>
+            
+                <div class="pl-6 mt-1 mb-4">
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                </div>
+            
+                <div class="shrink-0 mt-auto bg-transparent dark:border-dark-650">
+                    <a class="flex items-center justify-center flex-nowrap h-16 text-gray-400 dark:text-dark-400 hover:text-gray-700 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                        <span class="text-xs whitespace-nowrap">Powered by</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-dark-650">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-dark-650">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../static/splunk_odam_overview.pdf" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M0 3.75A.75.75 0 0 1 .75 3h7.497c1.566 0 2.945.8 3.751 2.014A4.495 4.495 0 0 1 15.75 3h7.5a.75.75 0 0 1 .75.75v15.063a.752.752 0 0 1-.755.75l-7.682-.052a3 3 0 0 0-2.142.878l-.89.891a.75.75 0 0 1-1.061 0l-.902-.901a2.996 2.996 0 0 0-2.121-.879H.75a.75.75 0 0 1-.75-.75Zm12.75 15.232a4.503 4.503 0 0 1 2.823-.971l6.927.047V4.5h-6.75a3 3 0 0 0-3 3ZM11.247 7.497a3 3 0 0 0-3-2.997H1.5V18h6.947c1.018 0 2.006.346 2.803.98Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>ODAM Overview</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../static/odam-maturity-scoring-matrix-levels-1-to-5.xlsx">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M3.5 3.75a.25.25 0 0 1 .25-.25h13.5a.25.25 0 0 1 .25.25v10a.75.75 0 0 0 1.5 0v-10A1.75 1.75 0 0 0 17.25 2H3.75A1.75 1.75 0 0 0 2 3.75v16.5c0 .966.784 1.75 1.75 1.75h7a.75.75 0 0 0 0-1.5h-7a.25.25 0 0 1-.25-.25V3.75Z"/><path d="M6.25 7a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5h-8.5Zm-.75 4.75a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1-.75-.75Zm16.28 4.53a.75.75 0 1 0-1.06-1.06l-4.97 4.97-1.97-1.97a.75.75 0 1 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0l5.5-5.5Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Data Analytics Maturity Self-Assessment</span>
+                                        </a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+            
+                        <a class="flex items-center justify-center flex-nowrap h-16 text-gray-400 dark:text-dark-400 hover:text-gray-700 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                            <span class="text-xs whitespace-nowrap">Powered by</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                        </a>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 dark:bg-dark-850">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
+                            <div class="docs-markdown" id="docs-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="docs-sidebar-right-toggle"></div>
+                
+                                <!-- Page content  -->
+<doc-anchor-target id="data-at-the-heart-of-modern-life" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#data-at-the-heart-of-modern-life">#</doc-anchor-trigger>
+        <span>Data at the Heart of Modern Life <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>Part I</span>
+        </span></span>
+    </h1>
+</doc-anchor-target>
+<p>In this section, we will explore the 5 Vs, the growth of IoT and sensing devices, the impact of mobile and cloud computing on data generations, and the importance of data in a pandemic.</p>
+<p>As our world becomes increasingly digitized, we are generating and collecting vast amounts of data from a variety of sources. From the sensing devices placed throughout our physical environment to the data we create through our daily interactions and activities, the amount of data we produce is vast and ever-growing.</p>
+<p>But data is more than just a collection of numbers and information. It is a precious resource, one that will last long after the systems and technologies that generate it have come and gone. As Tim Berners-Lee said,</p>
+<blockquote>
+<p>&quot;Data is a precious thing and will last longer than the systems themselves.&quot;<br />
+<em>— Unknown</em></p>
+</blockquote>
+<p>In the future, we will see data play an even greater role in our lives as technologies like blockchain allow us to exchange value peer-to-peer using digital infrastructure. Autonomous vehicles, energy grids, entertainment, and transportation will all be transformed by the power of data. Data is a valuable resource that will shape our world for generations to come.</p>
+<p>As more people and more things become connected, more data is generated, consumed, analyzed, stored, destroyed, and valued.</p>
+<p>Using blockchain technology, we can exchange value for the first time - peer-to-peer - using digital infrastructure. Fun fact: the only other peer-to-peer infrastructure we have to exchange value is cash.</p>
+<p>The future motivates me, personally. I love technology and love thinking about all the ways that we humans will interact with and experience technology. AR, VR, xVR, whatever the reality, it sounds cool and I look forward to it!</p>
+<doc-anchor-target id="the-5-vs-of-data-analytics">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#the-5-vs-of-data-analytics">#</doc-anchor-trigger>
+        <span>The 5 Vs of Data Analytics</span>
+    </h2>
+</doc-anchor-target>
+<p>Data plays a central role in modern life, and organizations of all types and sizes are facing challenges in managing the volume, variety, veracity, velocity, and value of the data they generate and collect. From states to universities, counties to tribes and pueblos, school districts to utilities, academic medical centers to businesses, the challenges of data management are widespread and complex. In this section, we will delve into each of the 5Vs and explore the key considerations for an effective data strategy.</p>
+<doc-anchor-target id="1-volume">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#1-volume">#</doc-anchor-trigger>
+        <span>1. Volume</span>
+    </h3>
+</doc-anchor-target>
+<p>As organizations continue to digitize, the volume of data being generated on a daily basis has become overwhelming. In fact, according to recent estimates, the average digital organization creates terabytes of data each day. Here’s a list of some important questions to consider, as the volume of data can have a significant impact.</p>
+<ul>
+<li>How much data does your digital organization create every day?</li>
+<li>How much of that data that is created by the organization needs to be collected?</li>
+<li>How much of the data is clean and is usable?</li>
+<li>How much of that data that is collected needs to be analyzed or processed?</li>
+<li>How much of that data that is collected needs to be retained?</li>
+<li>How will the volume of data impact the organization’s governance program?</li>
+<li>How much of the digital organization’s data is not being collected?</li>
+<li>Volume can be derived from # of users, # of endpoints, and other factors.</li>
+</ul>
+<doc-anchor-target id="2-variety">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#2-variety">#</doc-anchor-trigger>
+        <span>2. Variety</span>
+    </h3>
+</doc-anchor-target>
+<p>There is a growing movement within the cybersecurity industry to establish a common standard for sharing threat intelligence and communicating threat tactics and techniques. For example, Splunk recently announced a partnership with Amazon Web Services (AWS) to create the Splunk Security Lake, which aims to provide a centralized platform for storing, analyzing, and sharing security data. However, until there is a widely-accepted industry-wide standard for data sharing, organizations will continue to deal with a variety of data sources.</p>
+<p>Each firewall vendor has a different log format, and endpoint telemetry may contain more information than what is reported by the firewall. While these data sources can complement each other, the differences in format can make it difficult for organizations to effectively analyze and utilize the data. Splunk provides tools that can help normalize this variety of data using a Common Information Model (CIM). By using CIM, organizations can more easily integrate and analyze data from multiple sources, enabling them to make more informed security decisions.</p>
+<p>The following five items are key components of a successful data analytics program:</p>
+<doc-panels>
+   <doc-panel id="integration" collapsed>
+       <template #title>Integration</template>
+<p>This refers to the process of combining data from multiple sources, such as databases, systems, and applications, in order to gain a more comprehensive understanding of the data.</p>
+   </doc-panel>
+   <doc-panel id="quality" collapsed>
+       <template #title>Quality</template>
+<p>Ensuring the quality of data is critical for accurate analysis and decision-making. This includes verifying the accuracy, completeness, and consistency of the data.</p>
+   </doc-panel>
+   <doc-panel id="governance" collapsed>
+       <template #title>Governance</template>
+<p>Data governance is the set of policies, procedures, and standards that govern the use, management, and protection of data within an organization. It helps to ensure that data is used ethically and responsibly.</p>
+   </doc-panel>
+   <doc-panel id="security" collapsed>
+       <template #title>Security</template>
+<p>Protecting data from unauthorized access and ensuring the confidentiality, integrity, and availability of data is essential for any organization.</p>
+   </doc-panel>
+   <doc-panel id="analysis" collapsed>
+       <template #title>Analysis</template>
+<p>This refers to the process of examining, transforming, and modeling data in order to discover useful insights and inform decision-making. It can involve a variety of techniques, such as statistical analysis, machine learning, and data visualization.</p>
+   </doc-panel>
+</doc-panels>
+<doc-anchor-target id="3-veracity">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#3-veracity">#</doc-anchor-trigger>
+        <span>3. Veracity</span>
+    </h3>
+</doc-anchor-target>
+<p>Ensuring the veracity of data is essential for a successful data analytics platform. This includes considering factors such as accuracy, completeness, timeliness, consistency, and integrity, as these all contribute to the overall quality of the data. Ensuring that the data is of high quality is critical for accurate analysis and informed decision-making. There are multiple points of importance when it comes to the veracity of data:</p>
+<doc-panels>
+   <doc-panel id="accuracy" collapsed>
+       <template #title>Accuracy</template>
+<p>Veracity refers to the truthfulness and accuracy of data. Data that is not accurate or reliable can lead to incorrect insights and decisions, which can have serious consequences for an organization.</p>
+   </doc-panel>
+   <doc-panel id="completenes" collapsed>
+       <template #title>Completenes</template>
+<p>Veracity also refers to the completeness of data. Data that is incomplete or missing key elements can impact the accuracy of analytics and insights, as well as the usefulness of the data for decision-making.</p>
+   </doc-panel>
+   <doc-panel id="timeliness" collapsed>
+       <template #title>Timeliness</template>
+<p>Veracity also refers to the timeliness of data. Data that is not up-to-date or current can be less useful for decision-making, as it may not reflect the current state of the organization or industry.</p>
+   </doc-panel>
+   <doc-panel id="consistency" collapsed>
+       <template #title>Consistency</template>
+<p>Veracity also refers to the consistency of data. Data that is not consistent or does not follow established standards and conventions can be difficult to use and integrate, and may lead to incorrect insights and decisions.</p>
+   </doc-panel>
+   <doc-panel id="integrity" collapsed>
+       <template #title>Integrity</template>
+<p>Veracity also refers to the integrity of data. Data that has been compromised or altered in any way can impact the accuracy and reliability of analytics and insights, as well as the trustworthiness of the data for decision-making. Ensuring the veracity of data is critical for the success of any data analytics and decision-making efforts.</p>
+   </doc-panel>
+</doc-panels>
+<doc-anchor-target id="4-velocity">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#4-velocity">#</doc-anchor-trigger>
+        <span>4. Velocity</span>
+    </h3>
+</doc-anchor-target>
+<p>Data velocity is a measure of how fast data is being generated and processed. It is calculated using two factors: time and amount. Speed, frequency, volume, and variety are all components of data velocity that can impact how quickly data is generated and processed.</p>
+<p>Imagine trying to measure the flow of electricity in a circuit. Just like electricity, data can flow at different speeds and in different quantities. To accurately measure the flow of electricity, you would need to consider factors such as the amount of current (similar to volume in data), the frequency of the current (similar to frequency in data), and the type of load on the circuit (similar to variety in data). Similarly, to measure data velocity, you need to consider the speed at which data is generated, the frequency of data generation, the volume of data being generated, and the variety of data being generated.</p>
+<p>Understanding data velocity is important because it can help organizations make informed decisions about how to process and store data. For example, if an organization is dealing with high velocity data, it may need to invest in more powerful and efficient processing and storage systems in order to keep up with the volume and speed of data being generated. On the other hand, if an organization is dealing with low velocity data, it may be able to use less expensive and less powerful systems to process and store the data. By understanding data velocity, organizations can ensure that they have the right systems and infrastructure in place to support their data analytics efforts.</p>
+<p>Breaking down speed, frequency, volume, and variety:</p>
+<doc-panels>
+   <doc-panel id="speed" collapsed>
+       <template #title>Speed</template>
+<p>The velocity of data refers to how quickly data is generated and processed. With the increasing amount of data being generated, it is important for organizations to have the ability to process and analyze data in real-time or near real-time to keep up with the pace of change.</p>
+   </doc-panel>
+   <doc-panel id="frequency" collapsed>
+       <template #title>Frequency</template>
+<p>The velocity of data also refers to the frequency at which data is generated and updated. Data that is generated and updated frequently may be more useful for decision-making, as it can provide a more current and accurate picture of the organization or industry.</p>
+   </doc-panel>
+   <doc-panel id="volume" collapsed>
+       <template #title>Volume</template>
+<p>The velocity of data is also impacted by the volume of data being generated. Organizations that generate a high volume of data may need to invest in more advanced technologies and processes to handle the volume and velocity of data effectively.</p>
+   </doc-panel>
+   <doc-panel id="variety" collapsed>
+       <template #title>Variety</template>
+<p>The velocity of data can also be impacted by the variety of data being generated. Data that comes from a variety of sources and formats may be more difficult to process and analyze quickly, which can impact the velocity of data.</p>
+   </doc-panel>
+</doc-panels>
+<doc-anchor-target id="5-value">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#5-value">#</doc-anchor-trigger>
+        <span>5. Value</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>What is the value of a seashell?</li>
+<li>What is the value of a goat or a chicken?</li>
+<li>What is the value of 1 BTC?</li>
+<li>How about a Peso?</li>
+<li>The value of a piece of art is determined by a number of factors.</li>
+<li>The value of music, a concert ticket, or the autographed poster are all complex equations.</li>
+<li>What is the value of an hour of your time?</li>
+</ul>
+<p>The value of something is determined by how much it is worth to an individual or group. This value can be subjective and can vary depending on a variety of factors. For example, the value of a seashell may be different for one person compared to another, depending on the individual&#x27;s personal preferences and circumstances. Similarly, the value of data and data analytics can vary depending on the context and purpose for which they are being used.</p>
+<p>Data itself can have value, as it can be used to inform decisions and drive business outcomes. Data analytics is the process of examining, transforming, and modeling data in order to discover useful insights and inform decision-making. The value of data analytics lies in its ability to provide valuable insights and help organizations make informed decisions.</p>
+<p>Insights are the information or understanding gained from data analytics. They can provide valuable perspective and help organizations make better decisions. The value of insights depends on their relevance, timeliness, and usefulness to the organization. By understanding the value of data, data analytics, and insights, organizations can maximize their value and achieve better outcomes.</p>
+<doc-anchor-target id="the-growth-of-iot-and-sensing-devices">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#the-growth-of-iot-and-sensing-devices">#</doc-anchor-trigger>
+        <span>The Growth of IoT and Sensing Devices</span>
+    </h2>
+</doc-anchor-target>
+<p>The internet of things (IoT) refers to the growing network of interconnected devices, sensors, and other electronic devices that are able to collect, transmit, and exchange data. These devices are becoming increasingly prevalent in many areas of our lives, including homes, cities, transportation systems, and businesses. The rise of IoT and sensing devices is driving the proliferation of data, as these devices are able to generate, collect, and transmit vast amounts of data in real time.</p>
+<p>The data generated by IoT and sensing devices can be used for a variety of purposes, including real-time decision making, trend analysis, and predictive modeling. The ability to collect and analyze this data in real time allows organizations to make more informed decisions and respond more quickly to changing circumstances. As the number of IoT and sensing devices continues to grow, the amount of data being generated and analyzed will also increase, leading to even greater insights and opportunities for organizations.</p>
+<doc-anchor-target id="the-impact-of-mobile-and-cloud-computing-on-data-generation">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#the-impact-of-mobile-and-cloud-computing-on-data-generation">#</doc-anchor-trigger>
+        <span>The Impact of Mobile and Cloud Computing on Data Generation</span>
+    </h2>
+</doc-anchor-target>
+<p><figure class="content-right">
+    <img src="../../static/part-1/cloud-formations.webp" alt="">
+    <figcaption class="caption caption-float"></figcaption>
+</figure>
+</p>
+<p>Mobile and cloud computing are driving the rapid growth of data generation. The proliferation of mobile devices and the increasing use of cloud-based services have made it easier for people to access and use these technologies, leading to a significant increase in the amount of data being produced.</p>
+<p>Analytics users expect an exceptional experience when interacting with data, and we want them to spend more time engaging with insights. This means that we need to focus on delivering a user-friendly interface and ensuring that data is easily accessible.</p>
+<p>The pandemic has also contributed to the increase in data generation, as more people turned to online platforms for services such as grocery delivery. This trend is likely to continue as the use of mobile and cloud technologies becomes more widespread.</p>
+<p>As the amount of data being generated continues to grow, organizations need to carefully consider how much data to collect and analyze, and how long to retain it. By identifying the systems, users, and assets that are generating the most relevant data, we can more effectively scope problems and take action to address them. Baselines and trending are also important for understanding how IT services are performing and responding to user needs.</p>
+<doc-anchor-target id="the-importance-of-data-in-a-pandemic">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#the-importance-of-data-in-a-pandemic">#</doc-anchor-trigger>
+        <span>The Importance of Data in a Pandemic</span>
+    </h2>
+</doc-anchor-target>
+<p>The pandemic brought attention to the crucial role that data plays in decision making. From tracking case numbers and infection rates to determining the capacity of hospitals, data became a driving force in understanding and responding to the crisis. This emphasized the need for real-time insights and quick response times in order to keep critical services running and secure. The pandemic also highlighted the importance of defining what is essential, both in terms of services and data. Ensuring the availability of these essential services and data requires a strong and efficient IT infrastructure, which can be achieved through the use of analytics and machine-speed response.</p>
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+                            </div>
+                            <footer class="clear-both">
+                            
+                                <nav class="flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../part-1/5-storytelling/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
+                                                <span class="block mt-1">Storytelling With Data </span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../part-1/7-digital-org/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
+                                                <span class="block mt-1">Data-​Driven Digital Organizations </span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </footer>
+                        </main>
+                
+                        <div class="border-t dark:border-dark-650 pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between">
+                                <div>
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                        <li>
+                                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200 md:mb-0" href="https://www.linkedin.com/in/cperkins2/" target="_blank">Connect with Chris Perkins on LinkedIn</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© Copyright 2023. All rights reserved.<br />
+                            Made with <svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M14 20.408c-.492.308-.903.546-1.192.709-.153.086-.308.17-.463.252h-.002a.75.75 0 0 1-.686 0 16.709 16.709 0 0 1-.465-.252 31.147 31.147 0 0 1-4.803-3.34C3.8 15.572 1 12.331 1 8.513 1 5.052 3.829 2.5 6.736 2.5 9.03 2.5 10.881 3.726 12 5.605 13.12 3.726 14.97 2.5 17.264 2.5 20.17 2.5 23 5.052 23 8.514c0 3.818-2.801 7.06-5.389 9.262A31.146 31.146 0 0 1 14 20.408Z"/></g></g></svg> by <a href="https://www.linkedin.com/in/zachthesplunker/" target="blank">ZachTheSplunker</a></p></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-white border-gray-200 lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton dark:bg-dark-850 dark:border-dark-650">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="docs-overlay-target"></div>
+
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Data at the Heart of Modern Life ", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+</body>
+</html>
