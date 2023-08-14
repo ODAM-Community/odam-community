@@ -1,17 +1,30 @@
-name: Docs
+name: Publish Retype powered website to GitHub Pages
 on:
+  workflow_dispatch:
   push:
     branches:
+      - main
       - master
       - main
     paths:
       - "docs/**"
-      - "mkdocs.yml"
-      - "overrieds/**"
-      - "includes/**"
+      - "retype.yml"
+      - "_includes/**"
 
 jobs:
-  call-docs-workflow:
-    uses: ZachChristensen28/splunk-github-wfa/.github/workflows/docs.yml@e96bdc58732819aa2a1f2a03cb8794c92cacd9f6
-    with:
-      config-path: docs/requirements.txt
+  publish:
+    name: Publish to retype branch
+
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: retypeapp/action-build@latest
+
+      - uses: retypeapp/action-github-pages@latest
+        with:
+          update-branch: true
