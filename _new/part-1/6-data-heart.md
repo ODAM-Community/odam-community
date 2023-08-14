@@ -46,39 +46,33 @@ Each firewall vendor has a different log format, and endpoint telemetry may cont
 
 The following five items are key components of a successful data analytics program:
 
-`Integration`  
+==- Integration
 This refers to the process of combining data from multiple sources, such as databases, systems, and applications, in order to gain a more comprehensive understanding of the data.
-
-`Quality`  
+==- Quality
 Ensuring the quality of data is critical for accurate analysis and decision-making. This includes verifying the accuracy, completeness, and consistency of the data.
-
-`Governance`  
+==- Governance
 Data governance is the set of policies, procedures, and standards that govern the use, management, and protection of data within an organization. It helps to ensure that data is used ethically and responsibly.
-
-`Security`  
+==- Security
 Protecting data from unauthorized access and ensuring the confidentiality, integrity, and availability of data is essential for any organization.
-
-`Analysis`  
+==- Analysis
 This refers to the process of examining, transforming, and modeling data in order to discover useful insights and inform decision-making. It can involve a variety of techniques, such as statistical analysis, machine learning, and data visualization.
+===
 
 ### 3. Veracity
 
 Ensuring the veracity of data is essential for a successful data analytics platform. This includes considering factors such as accuracy, completeness, timeliness, consistency, and integrity, as these all contribute to the overall quality of the data. Ensuring that the data is of high quality is critical for accurate analysis and informed decision-making. There are multiple points of importance when it comes to the veracity of data:
 
-`Accuracy`  
+==- Accuracy
 Veracity refers to the truthfulness and accuracy of data. Data that is not accurate or reliable can lead to incorrect insights and decisions, which can have serious consequences for an organization.
-
-`Completeness`  
+==- Completenes 
 Veracity also refers to the completeness of data. Data that is incomplete or missing key elements can impact the accuracy of analytics and insights, as well as the usefulness of the data for decision-making.
-
-`Timeliness`  
+==- Timeliness
 Veracity also refers to the timeliness of data. Data that is not up-to-date or current can be less useful for decision-making, as it may not reflect the current state of the organization or industry.
-
-`Consistency`  
+==- Consistency
 Veracity also refers to the consistency of data. Data that is not consistent or does not follow established standards and conventions can be difficult to use and integrate, and may lead to incorrect insights and decisions.
-
-`Integrity`  
+==- Integrity
 Veracity also refers to the integrity of data. Data that has been compromised or altered in any way can impact the accuracy and reliability of analytics and insights, as well as the trustworthiness of the data for decision-making. Ensuring the veracity of data is critical for the success of any data analytics and decision-making efforts.
+===
 
 ### 4. Velocity
 
@@ -90,17 +84,15 @@ Understanding data velocity is important because it can help organizations make 
 
 Breaking down speed, frequency, volume, and variety:
 
-`Speed`  
+==- Speed
 The velocity of data refers to how quickly data is generated and processed. With the increasing amount of data being generated, it is important for organizations to have the ability to process and analyze data in real-time or near real-time to keep up with the pace of change.
-
-`Frequency`  
+==- Frequency
 The velocity of data also refers to the frequency at which data is generated and updated. Data that is generated and updated frequently may be more useful for decision-making, as it can provide a more current and accurate picture of the organization or industry.
-
-`Volume`  
+==- Volume
 The velocity of data is also impacted by the volume of data being generated. Organizations that generate a high volume of data may need to invest in more advanced technologies and processes to handle the volume and velocity of data effectively.
-
-`Variety`  
+==- Variety
 The velocity of data can also be impacted by the variety of data being generated. Data that comes from a variety of sources and formats may be more difficult to process and analyze quickly, which can impact the velocity of data.
+===
 
 ### 5. Value
 

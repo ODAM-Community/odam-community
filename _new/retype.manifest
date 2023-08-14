@@ -1,6 +1,6 @@
 {
   "version": "3.1.0",
-  "created": "2023-08-13T02:31:54Z",
+  "created": "2023-08-13T22:24:53Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -57,10 +57,64 @@
       "path": "part-1/index.html"
     },
     {
+      "path": "part-2/1-challenges/index.html"
+    },
+    {
+      "path": "part-2/2-impact/index.html"
+    },
+    {
+      "path": "part-2/3-principles/index.html"
+    },
+    {
+      "path": "part-2/4-lifecycle/index.html"
+    },
+    {
+      "path": "part-2/5-outcomes/index.html"
+    },
+    {
       "path": "part-2/index.html"
     },
     {
+      "path": "part-3/1-sponsorship/index.html"
+    },
+    {
+      "path": "part-3/2-culture/index.html"
+    },
+    {
+      "path": "part-3/3-ace/index.html"
+    },
+    {
+      "path": "part-3/4-outcomes/index.html"
+    },
+    {
+      "path": "part-3/5-roadmap/index.html"
+    },
+    {
+      "path": "part-3/6-dev-process/index.html"
+    },
+    {
       "path": "part-3/index.html"
+    },
+    {
+      "path": "part-4/1-recommendations/index.html"
+    },
+    {
+      "path": "part-4/2-essentials/index.html"
+    },
+    {
+      "path": "part-4/3-approach/index.html"
+    },
+    {
+      "path": "part-4/4-threat-intel/index.html"
+    },
+    {
+      "path": "part-4/5-risk-assessments/index.html"
+    },
+    {
+      "path": "part-4/6-soc/index.html"
+    },
+    {
+      "path": "part-4/7-value/index.html"
     },
     {
       "path": "part-4/index.html"
@@ -154,6 +208,69 @@
     },
     {
       "path": "static/part-1/visibility.webp"
+    },
+    {
+      "path": "static/part-2/benefits-of-visibility.webp"
+    },
+    {
+      "path": "static/part-2/c-suite-goals.webp"
+    },
+    {
+      "path": "static/part-2/common-challenges-comic.webp"
+    },
+    {
+      "path": "static/part-2/common-challenges.webp"
+    },
+    {
+      "path": "static/part-2/focus-area.webp"
+    },
+    {
+      "path": "static/part-2/lifecycle-details.webp"
+    },
+    {
+      "path": "static/part-2/lifecycle.webp"
+    },
+    {
+      "path": "static/part-3/ace-activities.webp"
+    },
+    {
+      "path": "static/part-3/assessment-tool.webp"
+    },
+    {
+      "path": "static/part-3/data-literacy.webp"
+    },
+    {
+      "path": "static/part-3/executive-sponsorship.webp"
+    },
+    {
+      "path": "static/part-3/it-service-blueprint-splunk.webp"
+    },
+    {
+      "path": "static/part-3/itsb-1.webp"
+    },
+    {
+      "path": "static/part-3/itsb-2.webp"
+    },
+    {
+      "path": "static/part-3/making-things-better.webp"
+    },
+    {
+      "path": "static/part-3/measuring-risk.webp"
+    },
+    {
+      "path": "static/part-4/analytics-operations.webp"
+    },
+    {
+      "path": "static/part-4/data-architecture-overview.webp"
+    },
+    {
+      "path": "static/part-4/incident-response.webp"
+    },
+    {
+      "path": "static/part-4/it-networks-apps-users.webp"
+    },
+    {
+      "path": "static/part-4/security-monitoring.webp"
     },
     {
       "path": "static/splunk_odam_overview.pdf"

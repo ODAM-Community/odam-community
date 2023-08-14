@@ -25,6 +25,8 @@ I will leave you with these last-minute thoughts:
 
 ## A God Loosened
 
+[See Video](https://youtu.be/zQ3IbO4vFBA?t=1342) <small>:icon-video:</small>
+
 <div style="text-align:left">
 
 I walk along the acequia.  
@@ -63,7 +65,7 @@ suddenly, it seems a God has loosened
 itself in those terrible feathers.
 </div>
 
-— Jimmy Santiago Baca
+_— [Jimmy Santiago Baca <small>:icon-link-external:</small>](https://www.jimmysantiagobaca.com/contact){ target="blank" }_
 :::
 
 ===

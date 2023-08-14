@@ -1,7 +1,7 @@
 ---
 order: -1
 label: 1 - Data is Beautiful
-icon: telescope
+icon: paintbrush
 ---
 # Data is Beautiful
 
@@ -11,6 +11,8 @@ icon: telescope
 :::content-center
 
 ## Spring
+
+[See Video](https://youtu.be/zQ3IbO4vFBA?t=400) <small>:icon-video:</small>
 
 <div style="text-align:left">
 
@@ -60,7 +62,7 @@ as they emit that special light
 they do.
 </div>
 
-_— Jimmy Santiago Baca_
+_— [Jimmy Santiago Baca <small>:icon-link-external:</small>](https://www.jimmysantiagobaca.com/contact){ target="blank" }_
 :::
 
 ===
