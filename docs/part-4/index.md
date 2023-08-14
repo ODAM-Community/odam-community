@@ -1,7 +1,7 @@
 ---
 order: -4
 label: 4 - Getting Tactical
-icon: graph
+icon: git-branch
 ---
 
 # Getting Tactical
