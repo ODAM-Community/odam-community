@@ -12,7 +12,7 @@ icon: infinity
 
 ## Spring
 
-[See Video](https://youtu.be/zQ3IbO4vFBA?t=400) <small>:icon-video:</small>
+[See Video <small>:icon-video:</small>](https://youtu.be/zQ3IbO4vFBA?t=400){ target="blank" }
 
 <div style="text-align:left">
 
