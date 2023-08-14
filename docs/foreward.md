@@ -105,13 +105,12 @@ The ODAM framework envisions a future where cybersecurity data analytics is no l
 
 -![](/static/foreward/leo_headshot.webp)
 
-[**Leo Howell**](https://www.linkedin.com/in/leohowell/){ target="blank" }, Chief Information Security Officer  
+**Leo Howell**, Chief Information Security Officer  
 Georgia Institute of Technology  
 Office of Information Technology  
 756 West Peachtree Street NW  
 Atlanta, Georgia 30308  
-phone: 404.385.0334  
-email: [leo.howell@gatech.edu](mailto:leo.howell@gatech.edu)
+LinkedIn: [https://www.linkedin.com/in/leohowell/](https://www.linkedin.com/in/leohowell/){ target="blank" }
 
 ---
 
