@@ -96,6 +96,8 @@ It is important to ask these discovery questions and take a self-assessment of a
 
 #### Take the Data Analytics Maturity Self-Assessment today!
 
+[Self-Assessment :icon-checklist:](/static/ODAM-Maturity-Scoring-Matrix-Levels-1-to-5.xlsx)
+
 The ODAM data analytics maturity self-assessment tool is a powerful resource for organizations looking to evaluate their current level of data analytics maturity. The assessment includes 50 questions, with 10 questions dedicated to each of the five levels of data analytics maturity. The self-assessment is an important step in the ODAM process as it helps organizations identify their current strengths and weaknesses, and provides a clear roadmap for how to improve their data analytics capabilities. By taking the self-assessment, organizations will be able to understand where they stand in terms of data analytics maturity and how to move forward with a strategic plan. The self-assessment tool is an easy way to start the journey of operationalizing data analytics, and it is a great starting point for any organization looking to take advantage of the power of data analytics.
 
 ![](/static/part-3/assessment-tool.webp)

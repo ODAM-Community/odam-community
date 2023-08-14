@@ -5,7 +5,7 @@ order: -5
 
 # Conclusion
 
-In this book, we have discussed the importance of data analytics in helping organizations make informed and strategic decisions. We have explored the use of tools like Splunk's ODAM platform and emphasized the importance of data storytelling and establishing a common language around data. We have also outlined steps for setting up an analytics center of excellence and emphasized the need to take a tactical approach to deployment. 
+In this book, we have discussed the importance of data analytics in helping organizations make informed and strategic decisions. We have explored the use of tools like ODAM platform and emphasized the importance of data storytelling and establishing a common language around data. We have also outlined steps for setting up an analytics center of excellence and emphasized the need to take a tactical approach to deployment. 
 
 Ultimately, Splunk connects people to what they are looking for and ODAM connects people, processes, technology, and data.
 

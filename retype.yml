@@ -14,6 +14,9 @@ links:
   link: static/Splunk_ODAM_Overview.pdf
   target: blank
   icon: book
+- text: Data Analytics Maturity Self-Assessment
+  link: static/ODAM-Maturity-Scoring-Matrix-Levels-1-to-5.xlsx
+  icon: checklist
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved.\nMade with :icon-heart-fill: by [ZachTheSplunker](https://www.linkedin.com/in/zachthesplunker/){ target=blank }"
   links: 
