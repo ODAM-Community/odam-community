@@ -11,7 +11,7 @@ As our world becomes increasingly digitized, we are generating and collecting va
 But data is more than just a collection of numbers and information. It is a precious resource, one that will last long after the systems and technologies that generate it have come and gone. As Tim Berners-Lee said,
 
 > "Data is a precious thing and will last longer than the systems themselves."  
-> _— Unknown_
+> _— Tim Berners-Lee_
 
 In the future, we will see data play an even greater role in our lives as technologies like blockchain allow us to exchange value peer-to-peer using digital infrastructure. Autonomous vehicles, energy grids, entertainment, and transportation will all be transformed by the power of data. Data is a valuable resource that will shape our world for generations to come.
 
