@@ -20,5 +20,8 @@ footer:
     - text: Connect with Chris Perkins on LinkedIn
       link: https://www.linkedin.com/in/cperkins2/
       target: blank
+integrations:
+  googleAnalytics:
+    id: G-25B9F6WBBT
 markdown:
   lineBreaks: hard
