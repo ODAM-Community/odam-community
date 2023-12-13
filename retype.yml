@@ -15,7 +15,7 @@ links:
   target: blank
   icon: book
 footer:
-  copyright: "&copy; Copyright {{ year }}. All rights reserved.
+  copyright: "&copy; Copyright {{ year }}. All rights reserved."
   links: 
     - text: Connect with Chris Perkins on LinkedIn
       link: https://www.linkedin.com/in/cperkins2/
