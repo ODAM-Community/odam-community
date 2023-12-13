@@ -10,20 +10,18 @@ on:
       - "retype.yml"
       - "_includes/**"
 
+permissions:
+  contents: write
+
 jobs:
   publish:
     name: Publish to retype branch
 
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: write
-
     steps:
       - uses: actions/checkout@v3
-
       - uses: retypeapp/action-build@latest
-
       - uses: retypeapp/action-github-pages@latest
         with:
           update-branch: true
